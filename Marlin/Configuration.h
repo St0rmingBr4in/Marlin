@@ -597,7 +597,7 @@
 
 // Enable one of the options below for CoreXY, CoreXZ, or CoreYZ kinematics,
 // either in the usual order or reversed
-//#define COREXY
+#define COREXY
 //#define COREXZ
 //#define COREYZ
 //#define COREYX
@@ -732,7 +732,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 88.24, 88.24, 2272.72, 490.19 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80.76, 80.76, 2272.72, 490.19 }
 
 /**
  * Default Max Feed Rate (mm/s)
